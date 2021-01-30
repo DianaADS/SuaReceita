@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Cadastro</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+</head>
+<body>
+		<section id="top" class="bg-top">
+		<header>
+			<div class="navbar-fixed nav-wrapper">
+				<nav class="row">
+					<div class="col s8 m3 offset-m1">
+						<a href="#"><img class="logo" src="Logo.jpg" alt="Sua Receita"></a>			
+					</div> <!-- .col -->
+					<div class="col s3 m7 offset-s1">
+						<a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="login.html" a class="waves-effect waves-light btn-large">ENTRAR</a></a></li>
+							<li><a href="cadastrar.html" class="waves-effect waves-light btn-large">CADASTRAR</a></li>			
+						</ul>
+					</div> <!--.col -->
+				</nav>
+           </div> <!-- .navbar -->
+           <ul class="sidenav" id="mobile-menu">
+							<li><a href="login.html" a class="waves-effect waves-light btn-large">ENTRAR</a></a></li>
+							<li><a href="cadastrar.html" class="waves-effect waves-light btn-large">CADASTRAR</a></li>s
+		</header>
+	<style>
+	  body{
+	  	background-color: #ffccdd;
+	  }
+	</style>
+	<link rel="stylesheet" href="CSS/css-listagem-de-receitas.css"/>
+</head>
+<body>
+	</section> <!-- /section#top -->
+    <section class="form">
+        <div class="row" id="top-form">
+          <div class="col s12 m4 offset-m4">
+           <div class="card-image">
+             <ima src="imagens/jovem.png max-height: 100%" width="100%S"><!--tag classe imagem-->
+           <div class="card" id="form">
+              <div id="card-action" class="card-action black-text">
+                 <h3 class="black-text">Cadastro</h3>
+              </div><!--action-->
+              <div class="card-content">
+              <div class="form-field">
+                 <label id="usuario" for="usuario" >Usuário</label>
+                 <input type="text" id="usuario">
+              </div><br><!--Form-field-->
+               <div class="form-field">
+                 <label id="email" for="email" >E-mail</label>
+                 <input type="email" id="email">
+              </div><br><!--Form-field-->
+              <div class="form-field">
+                 <label id="senha" for="senha">Senha</label>
+                 <input type="password" id="senha">
+              </div><br><!--Form-field-->
+              <div class="form-field">
+                 <label for="confirmarsenha">Confirmar Senha</label>
+                 <input type="password" id="confirmar-senha">
+              </div><br><!--Form-field-->             
+                <form action="doacoes.html">
+                 <a href="login.html" class="btn-large waves-effect waves-light" style="width: 100%;">Cadastrar</a>
+              </div></form><br>
+              <div class="form-field">
+                 <a href="login.html"><h6>Fazer Login</h6></a>
+              </div><br>
+           </div><!--content-->         
+        </div><!--card-->
+        </div><!--image-->
+     </div><!--col-->
+	    </section><!-- /section#Login/Cadastro -->
+	<footer class="page-footer" id="footerChato">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col s12 m6 l6">
+    				<header id="e-mail"><h5>Deixe Seu E-mail para NewsLetter</h5></header>
+    				<div class="input-field col s12 m12">
+    					<input id="usuario" type="text" class="validate" />
+    					<label for="usuario">Digitar e-mail</label>    					
+    				</div><!--/.input-field-->	    				
+    			</div><!--col-->
+    			<div id="social" class="col s12 m4 l4 offset-l2">
+    			</div><!--col-->
+    		</div><!--/.row-->
+    	</div><!--Container-->
+    	<div class="footer-copyriht">
+    		<div class="container">
+    			&copy; SUA RECEITA
+    			<a href="3" class="right teal-text text-lighten-2" >Diana Batista</a>
+    		</div><!--Container-->    		
+    	</div><!--/.footer-copyright-->
+    </footer><!--/footer-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/auto.js"></script>
+</body>
+</html>

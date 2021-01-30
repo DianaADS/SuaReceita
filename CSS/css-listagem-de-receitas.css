@@ -1,0 +1,133 @@
+/*listagem de receitas*/
+body{
+	font-family: "Calibri",sans-serif;
+	font-size: 16px;
+	background-color: #8FBC8F;
+}
+
+div#principal{
+	margin-right: auto;
+	margin-left: auto;
+	width: 720px;
+	background-color: #ffff;
+	padding: 2em;
+}
+
+div#main{
+	margin-right: 100px;
+	margin-left: 100px;
+	width: 720px;
+	background-color: #dddd;
+	padding: 2em;
+}
+
+div#page{
+	margin-right: 500px;
+	margin-left: 500px;
+	width: 720px;
+	background-color: #5c5c;
+	padding: 2em;
+}
+
+li{
+	font-size: 25px;
+}
+
+div#principal2{
+	margin-right: auto;
+	margin-left: auto;
+	width: 720px;
+	background-color: #FF7F50;
+	padding: 2em;
+}
+
+div#main2{
+	margin-right: 100px;
+	margin-left: 100px;
+	width: 720px;
+	background-color: #48D1CC;
+	padding: 2em;
+}
+
+div#page2{
+	margin-right: 500px;
+	margin-left: 500px;
+	width: 720px;
+	background-color: #FFC0CB;
+	padding: 2em;
+}
+
+section#top nav{
+	background-color: #9ACD32;
+	padding: 1em;
+	height: 5em;
+}
+
+section#top nav ul li a{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+section#top nav ul li:nth-child(2){
+	border-left: 1px solid #000000;
+}
+
+/* formatacaos de classes*/
+.logo{
+	height: 65px;
+}
+
+.btn-large {
+	background-color: #CD0000; 
+	height: 45px;
+}
+
+.page-footer{
+	background-color: #9ACD32;
+}
+
+.page-footer label{
+	color:#000000;
+}
+
+.page-footer .footer-copyright{
+	background-color: rgba(51, 51, 51, 0.4);
+}
+
+#imgSabor{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 1em;
+}
+
+#imgMousse{
+	position: relative;
+	height: 300px;
+}
+
+#imgBombom{
+	position: relative;
+	height: 300px;
+}
+
+#imgPicole{
+	position: relative;
+	height: 300px;
+}
+
+#imgArgolinhas{
+	position: relative;
+	height: 300px;
+}
+
+#imgPaozinho{
+	position: relative;
+	height: 300px;
+}
+
+#imgPao{
+	position: relative;
+	height: 300px;
+}
